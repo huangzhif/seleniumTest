@@ -20,5 +20,5 @@ browser.forward() #前进
 #browser.maximize_window() #最大化窗口
 #browser.set_window_size(400,200) #设置浏览器宽高
 
-time.sleep(2)
+browser.implicitly_wait(10)
 browser.close()
